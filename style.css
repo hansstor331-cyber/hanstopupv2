@@ -1,0 +1,18 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#fff6fb;color:#333}
+nav{display:flex;gap:20px;justify-content:center;align-items:center;padding:15px;background:#ff4fa0;position:sticky;top:0}
+nav a,.logo{color:white;text-decoration:none;font-weight:bold}
+.hero{padding:90px 20px;background:linear-gradient(135deg,#ff4fa0,#ff8bc6);color:white;text-align:center}
+.hero-box{max-width:1000px;margin:auto}
+.hero h1{font-size:48px;margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:15px;margin-top:30px}
+.stats div,.card{background:white;color:#333;border-radius:18px;padding:20px;box-shadow:0 5px 15px rgba(0,0,0,.08)}
+.stats b{display:block;font-size:26px;color:#ff4fa0}
+.buttons a,.contact a{display:inline-block;margin:8px;padding:12px 18px;background:#ff4fa0;color:white;text-decoration:none;border-radius:30px}
+section{padding:50px 20px;max-width:1200px;margin:auto}
+h2{text-align:center;color:#ff4fa0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card:hover{transform:translateY(-5px)}
+.floating{position:fixed;right:20px;bottom:20px;background:#25D366;color:white;text-decoration:none;font-size:28px;padding:15px;border-radius:50%}
+footer{text-align:center;padding:30px;background:#ff4fa0;color:white}
